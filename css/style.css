@@ -1,0 +1,117 @@
+/*==IMPORTANDO FONTE DO GOOGLE FONTS==*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/*==RESET==*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("https://512pixels.net/downloads/macos-wallpapers-thumbs/10-12--thumb.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 10px 0px 20px 0;
+}
+
+#img-caption {
+  margin: 10px 0 50px 0;
+}
+
+h3 {
+  margin: 30px;
+  color: #d8613f;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  padding: 25px;
+  border-radius: 20px;
+}
+
+/*==IMAGEM PRINCIPAL==*/
+#img-div #image {
+  display: block;
+  max-width: 60%;
+  border-radius: 8px;
+  margin: 0 auto;
+  box-shadow: 15px 15px 10px -10px rgba(0, 0, 0, 0.5);
+}
+
+/*==LISTA NÃO ORDENADA==*/
+
+#tribute-info ul,
+li,
+a {
+  text-align: left;
+  margin-top: 20px;
+  list-style: none;
+}
+#tribute-info ul,
+li a:last-child {
+  margin-bottom: 30px;
+}
+
+span {
+  font-weight: 700;
+}
+
+hr {
+  margin-top: 30px;
+  opacity: 0.5;
+}
+
+/*==LINK PARA WIKIPEDIA==*/
+#tribute-link,
+a {
+  margin-top: 30px;
+  text-decoration: none;
+  color: #000;
+}
+#tribute-link:hover {
+  color: #d8613f;
+}
+
+/*==CITAÇÃO==*/
+.citacao {
+  color: #fff;
+  font-size: 14px;
+  background-color: #d8613f;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  box-shadow: 15px 15px 10px -10px rgba(0, 0, 0, 0.5);
+}
+
+.citacao img {
+  width: 30%;
+}
+
+#rodape,
+a {
+  text-align: center;
+  color: #fff;
+  margin-top: 15px;
+}
+
+/*==FOOTER==*/
+#rodape,
+a:hover {
+  color: #d8613f;
+}
